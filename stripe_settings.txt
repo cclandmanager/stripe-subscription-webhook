@@ -1,0 +1,30 @@
+
+Stripe Checkout - Instructions
+https://docs.stripe.com/payments/checkout
+
+# -------- COMMON
+API Keys
+Publishable key   
+pk_test_51SKOYbJpvIBdVdZ8H1w6nt6v3MW9V1hVIfUu6HZJ9bPUjQHjHANuo4DxnXtwdNbn8RpoPLafSdkLaNwvN0t0uJDl00HlUjwgCq
+
+Secret key   
+sk_test_REPLACEME
+
+# -------- LANDMANAGER-Specific
+Landmanager Webhook Secret
+(specify in the .env file)
+whsec_REPLACEME
+
+Landmanager TEST webhook secret
+(use in Stripe’s sandbox mode)
+whsec_REPLACEME
+
+
+# -------- FLOFRAME-Specific
+Floframe Webhook Secret
+(specify in the .env file)
+whsec_xxxx
+
+Floframe TEST webhook secret
+(use in Stripe’s sandbox mode)
+whsec_xxxx
